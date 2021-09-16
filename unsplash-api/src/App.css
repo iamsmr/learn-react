@@ -1,0 +1,35 @@
+.App {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.searchbar {
+  display: flex;
+}
+.searchbar input {
+  border: none;
+  outline: none;
+  background: #fff;
+  box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+  padding: 10px 40px;
+  height: 50px;
+  width: 70%;
+  font-size: 1.2rem;
+  border-radius: 2500px;
+  margin: 7rem auto;
+}
+.image-list {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 10px;
+  grid-auto-rows: 100px;
+}
+
+.image-list img {
+  width: 400px;
+  object-fit: cover;
+  /* height: 100%; */
+  /* object-fit: cover; */
+  /* height: 100%; */
+}
